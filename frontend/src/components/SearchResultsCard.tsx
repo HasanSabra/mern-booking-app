@@ -59,7 +59,7 @@ const SearchResultCard = ({ hotel }: Props) => {
             <span className='font-bold'>${hotel.pricePerNight} per Night</span>
 
             <Link
-              to={`/dtail/${hotel._id}`}
+              to={`/detail/${hotel._id}`}
               className='bg-blue-600 text-white h-full p-2 font-bold text-xl max-w-fit hover:bg-blue-500'
             >
               View More
